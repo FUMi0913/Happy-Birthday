@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            text-align: center;
+            padding: 50px;
+            background: linear-gradient(to bottom right, #ffccff, #ccffff);
+        }
+        h1 {
+            color: #ff66b2;
+            font-size: 50px;
+            margin-top: 0;
+            text-shadow: 2px 2px #ff99ff;
+        }
+        h2 {
+            color: #66b3ff;
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px #ccf2ff;
+        }
+        p {
+            font-size: 24px;
+            color: #333;
+        }
+        .balloons {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .balloon {
+            width: 80px;
+            height: 100px;
+            background-color: #ff99cc;
+            border-radius: 50%;
+            position: relative;
+            margin: 0 10px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+        }
+        .balloon:before {
+            content: "";
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+            width: 2px;
+            height: 30px;
+            background-color: #666;
+            transform: translateX(-50%);
+        }
+        .balloon.red {
+            background-color: #ff6666;
+        }
+        .balloon.blue {
+            background-color: #66b3ff;
+        }
+        .balloon.yellow {
+            background-color: #ffff66;
+        }
+        .confetti {
+            width: 100px;
+            height: 200px;
+            background-color: #ffcc99;
+            position: absolute;
+            animation: float 4s ease-in-out infinite;
+        }
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+        footer {
+            margin-top: 40px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎉 Happy Birthday! 🎉</h1>
+    <h2>Fumiお誕生日おめでとう!</h2>
+    <img src="Fumi.jpg" alt="Description of the image" width="300" height="500"> > 
+    <audio controls>
+        <source src ="Jalan Seksyen 1-1.m4a"/>
+    </audio>
+
+    <footer>
+        Made with 💖 to celebrate your special day!
+    </footer>
+</body>
+</html>
